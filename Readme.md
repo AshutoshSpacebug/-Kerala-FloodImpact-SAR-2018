@@ -5,7 +5,10 @@
 This project focuses on visualizing and analyzing the 2018 Kerala floods using satellite imagery and geospatial datasets on **Google Earth Engine (GEE)**.
 
 ---
+## Play Around with Deployed Segment
+https://e-waniashutosh9.projects.earthengine.app/view/kerala-flood-analysis
 
+---
 ## 🧰 Prerequisites
 
 - A Google Account  
