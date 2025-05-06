@@ -77,7 +77,7 @@ https://e-waniashutosh9.projects.earthengine.app/view/kerala-flood-analysis
 - Viraj Surana (22BDS064)  
 
 **Under the guidance of:**  
-**Dr. Animesh Chaturvedi**  
+**Dr. Shirshendu Layek**  
 Assistant Professor, IIIT Dharwad
 
 ---
