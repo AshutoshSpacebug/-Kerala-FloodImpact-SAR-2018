@@ -1,6 +1,6 @@
 # Kerala 2018 Flood Visualization using Google Earth Engine
 
-## 📚 Overview
+## Overview
 
 This project focuses on visualizing and analyzing the 2018 Kerala floods using satellite imagery and geospatial datasets on **Google Earth Engine (GEE)**.
 
@@ -9,7 +9,7 @@ This project focuses on visualizing and analyzing the 2018 Kerala floods using s
 https://e-waniashutosh9.projects.earthengine.app/view/kerala-flood-analysis
 
 ---
-## 🧰 Prerequisites
+## Prerequisites
 
 - A Google Account  
 - Approval for using Google Earth Engine  
@@ -17,21 +17,21 @@ https://e-waniashutosh9.projects.earthengine.app/view/kerala-flood-analysis
 
 ---
 
-## 🌐 Setting Up Google Earth Engine
+## Setting Up Google Earth Engine
 
-### ✅ Step 1: Sign Up
+### Step 1: Sign Up
 
 1. Visit: [https://signup.earthengine.google.com/](https://signup.earthengine.google.com/)
 2. Fill in the required details and submit the form.
 3. Wait for approval (usually within 24–48 hours).
 
-### ✅ Step 2: Access the Code Editor
+### Step 2: Access the Code Editor
 
 - Open: [https://code.earthengine.google.com/](https://code.earthengine.google.com/)
 
 ---
 
-## ▶️ How to Run the Code
+## How to Run the Code
 
 1. Open the GEE Code Editor.
 2. Create a new script using the **"Scripts"** tab.
@@ -41,16 +41,16 @@ https://e-waniashutosh9.projects.earthengine.app/view/kerala-flood-analysis
 
 ---
 
-## 📦 Required Imports
+## Required Imports
 
-### 🛰️ Kerala_2018_Flood_Visualization
+### Kerala_2018_Flood_Visualization
 
 > var s1 = ee.ImageCollection("COPERNICUS/S1_GRD"),  
 > admin2 = ee.FeatureCollection("FAO/GAUL_SIMPLIFIED_500m/2015/level2");
 
 ---
 
-### 🔧 RemovingSpeckle
+### RemovingSpeckle
 
 > var admin2 = ee.FeatureCollection("FAO/GAUL_SIMPLIFIED_500m/2015/level2"),  
 > s1 = ee.ImageCollection("COPERNICUS/S1_GRD"),  
@@ -59,22 +59,18 @@ https://e-waniashutosh9.projects.earthengine.app/view/kerala-flood-analysis
 
 ---
 
-### 🔍 Before_After
+### Before_After
 
 > var admin2 = ee.FeatureCollection("FAO/GAUL_SIMPLIFIED_500m/2015/level2"),  
 > s1 = ee.ImageCollection("COPERNICUS/S1_GRD");
 
 ---
 
-## 🙌 Project Contributors
+## Project Contributors
 
 **Submitted by:**
 
-- Ashutosh Dilip Wani (22BDS008)  
-- Aman Gaikwad (22BDS021)  
-- Shaikh Mohammed Arsalan (22BDS053)  
-- Varang Pratap Singh (22BDS062)  
-- Viraj Surana (22BDS064)  
+- Ashutosh Dilip Wani (22BDS008)
 
 **Under the guidance of:**  
 **Dr. Shirshendu Layek, Dr. Animesh Chaturvedi**  
@@ -82,11 +78,11 @@ Assistant Professor, IIIT Dharwad
 
 ---
 
-## 🏛️ Institution
+## Institution
 
 **Department of Data Science and Artificial Intelligence**  
 **Indian Institute of Information Technology, Dharwad**  
-📅 April 2025
+April 2025
 
 ---
 
